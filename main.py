@@ -12,7 +12,7 @@ logging.basicConfig(
 
 # توکن ربات خود را اینجا قرار دهید
 # این توکن را از BotFather در تلگرام دریافت کنید
-TELEGRAM_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+TELEGRAM_TOKEN = "8360202192:AAGK3SqheE4wYqKx1-eeggvdyhf580jv6WQ"
 
 # تابع خوش‌آمدگویی برای دستور /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -84,4 +84,5 @@ def main() -> None:
     application.run_polling()
 
 if name == 'main':
+
     main()
